@@ -1,0 +1,225 @@
+/*Destrata Publishing Website*/
+/*Primary CSS*/
+/*By Andy Diaz*/
+
+/**************//**************//**************/
+/**************//**  GENERAL **//**************/
+/**************//**************//**************/
+body{
+    background-color: #060606;
+}
+.info-slot{
+    display: inline-block;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 9px 0 9px 0;
+    padding: 10px 20px;
+    border: 1px solid #b7b7b7;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 16px/normal 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+    color: rgb(97, 68, 97);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252,252,252,1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+}
+.info-slot:focus {
+    outline: none;
+    border-color: #bababa;
+    box-shadow: 0 0 10px #bababa;
+}
+.button{
+    -moz-box-shadow: 0px 1px 0px 0px #1c1b18;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    margin: 9px 0px 9px 0;
+    padding: 10px 20px;
+    border: 3px solid rgb(255, 255, 255);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #5a006b;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    text-shadow: -1px -1px 0 rgba(97, 68, 97, 0.66);
+}
+/**************//**************//**************/
+/**************//**  HEADER  **//**************/
+/**************//**************//**************/
+header{
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 0;
+    width: 100%;
+    z-index: 100;
+}
+#head{
+    float: top;
+    color: #5a006b;
+}
+
+/*siteName start*/
+#siteName{
+    float: left;
+    margin-left: 25px;
+}
+#siteName img{
+    float: left;
+    margin-left: 10px;
+    height: 70px;
+    width: 40px;
+}
+#siteName h1{
+    float: left;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 53px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 1px;
+}
+/*siteName end*/
+
+
+/*signIn start*/
+#signIn{
+    float: right;
+}
+#signIn ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#signIn li{
+    float: right;
+    margin-right: 25px;
+}
+#signIn li a{
+    border-radius:15px;
+    font-family: Papyrus, fantasy;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #5a006b;
+}
+#signIn li a:hover {
+    color: white;
+    background-color: #74008a;
+}
+/*signIn end*/
+
+/*navbar start*/
+#navbar{
+
+}
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #43004f;
+}
+#navbar li a{
+    margin-right: 25px;
+    float: right;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+#navbar li a:hover {
+    background-color: #74008a;
+}
+/*navbar end*/
+
+/**************//**************//**************/
+/**************//** CONTENT  **//**************/
+/**************//**************//**************/
+#content{
+    font: normal 16px/normal 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+    text-align: center;
+    background-color: #ffffff;
+    width: 80%;
+    margin-top: 120px;
+    margin-bottom: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#content img{
+    width: 100%;
+    height: 100%
+}
+.box1{
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 25px;
+}
+.box2{
+    margin-left: 20px;
+    font: normal 16px/normal 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+    text-align: left;
+}
+.box2 h3{
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+/**************//**************//**************/
+/**************//**  FOOTER  **//**************/
+/**************//**************//**************/
+footer{
+    text-align: center;
+    font-family: Papyrus, fantasy;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 1px;
+    color: #555555;
+}
+#lowLinks a{
+    font-family: Papyrus, fantasy;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #462d46;
+}
+#lowLinks img{
+    height: 75px;
+    width: 50px;
+    -webkit-filter: invert(100%); filter: invert(100%);
+}

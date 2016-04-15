@@ -1,0 +1,162 @@
+/*Destrata Publishing Website*/
+/*Log-In CSS*/
+/*By Andy Diaz*/
+
+/**************//**************//**************/
+/**************//**  GENERAL **//**************/
+/**************//**************//**************/
+body{
+    background-color: #462d46;
+}
+.info-slot{
+    display: inline-block;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 9px 170px 9px 0;
+    padding: 10px 20px;
+    border: 1px solid #b7b7b7;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 16px/normal 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+    color: rgb(97, 68, 97);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252,252,252,1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+}
+.info-slot:focus {
+    outline: none;
+    border-color: #bababa;
+    box-shadow: 0 0 10px #bababa;
+}
+.button{
+    -moz-box-shadow: 0px 1px 0px 0px #1c1b18;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    margin: 9px 287px 9px 0;
+    padding: 10px 20px;
+    border: 3px solid rgb(255, 255, 255);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #5a006b;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    text-shadow: -1px -1px 0 rgba(97, 68, 97, 0.66);
+}
+/**************//**************//**************/
+/**************//**  HEADER  **//**************/
+/**************//**************//**************/
+header{
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 83px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 1px;
+}
+header img{
+    margin-top: -25px;
+    width: 100px;
+    height: 100%;
+    -webkit-filter: invert(100%); filter: invert(100%);
+}
+#head{
+    margin-top: -70px;
+    margin-left: -10px;
+    width: 103%;
+    height: 100%;
+    background-color: black;
+}
+/**************//**************//**************/
+/**************//**  SECTION **//**************/
+/**************//**    AND   **//**************/
+/**************//**  CONTENT **//**************/
+/**************//**************//**************/
+section{
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 25px;
+    color: white;
+    width: 700px;
+    height: 325px;
+    background-color: #27002c;
+    margin: 20px auto 50px;
+    border-radius: 50px;
+    border: solid white;
+}
+section h1{
+    margin-top: -5px;
+    text-align: center;
+    font-size: 35px;
+}
+section form{
+    text-align: right;
+}
+section a{
+    color: #700083;
+    margin-left: 35px;
+    float: left;
+    font: normal 16px/normal 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+}
+.content{
+    padding: 50px;
+    text-align: right;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-size: 25px;
+    color: white;
+}
+.content img{
+}
+
+/**************//**************//**************/
+/**************//**  FOOTER  **//**************/
+/**************//**************//**************/
+footer{
+    text-align: center;
+    font-family: Papyrus, fantasy;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 1px;
+    color: #27002c;
+}
+#lowLinks a{
+    font-family: Papyrus, fantasy;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;
+}
+#lowLinks img{
+    height: 75px;
+    width: 50px;
+}
+#box{
+    width: 100%;
+    background-color: white;
+}
